@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.screen__one__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

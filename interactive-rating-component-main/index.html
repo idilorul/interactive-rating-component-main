@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+
+    <script defer type="module" src="script.js"></script>
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="screen__one">
+      <img class="icon" src="images/icon-star.svg" alt="" />
+      <h1 class="title__one">How did we do?</h1>
+      <p class="exmp__one">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </p>
+      <div class="screen__one__bottom">
+        <div class="buttons">
+          <a class="number one" href="#"><strong>1</strong></a>
+          <a class="number two" href="#"><strong>2</strong></a>
+          <a class="number three" href="#"><strong>3</strong></a>
+          <a class="number four" href="#"><strong>4</strong></a>
+          <a class="number five" href="#"><strong>5</strong></a>
+        </div>
+        <a class="submit" href="#"><strong>SUBMIT</strong></a>
+      </div>
+    </div>
+    <div class="screen__two hidden">
+      <img class="icon__two" src="images/illustration-thank-you.svg" alt="" />
+      <p class="selected">You selected <span class="vote">1</span> out of 5</p>
+      <h1 class="thanks"><strong>Thank you!</strong></h1>
+      <p class="exmp__two">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </div>
+  </body>
+</html>
